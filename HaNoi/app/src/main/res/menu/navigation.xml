@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_trang_chu"
+        android:icon="@drawable/home"
+        android:title="@string/trang_chu" />
+
+    <item
+        android:id="@+id/menu_diem_den"
+        android:icon="@drawable/diemden"
+        android:title="@string/diem_den" />
+
+    <item
+        android:id="@+id/menu_am_thuc"
+        android:icon="@drawable/amthuc"
+        android:title="@string/am_thuc" />
+
+    <item
+        android:id="@+id/menu_xem_them"
+        android:icon="@drawable/xemthem"
+        android:title="@string/xem_them" />
+</menu>

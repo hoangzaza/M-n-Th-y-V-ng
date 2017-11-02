@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="2dp"
+    app:cardElevation="@dimen/size_10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/size_8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_custom_ngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_16sp"
+            android:textColor="@color/colorBlack"
+            android:text="Hôm nay"/>
+        <ImageView
+            android:id="@+id/img_custom_thoi_tiet"
+            android:layout_width="@dimen/size_50dp"
+            android:layout_height="@dimen/size_50dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/size_8dp"
+            android:src="@drawable/icon"/>
+        <TextView
+            android:id="@+id/txt_custom_nhiet_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="20 / 22 C"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

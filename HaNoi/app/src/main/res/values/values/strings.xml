@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InHaNoi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ha_noi">Hà Nội</string>
+    <string name="diem_den">Điểm đến</string>
+    <string name="am_thuc">Ẩm thực</string>
+    <string name="trang_chu">Trang chủ</string>
+    <string name="xem_them">Xem thêm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="large_text">Mong mọi người nhìn đa chiều hơn
+Nhìn nhận về câu chuyện nhiều bạn trẻ xếp hàng ăn cơm từ thiện, nhiều sinh viên cho rằng tùy hoàn cảnh của mỗi người và mong mọi người có cái nhìn đa chiều hơn.
+“Nếu ai từng là sinh viên thì chắc thừa biết được sinh viên nghèo khổ thế nào. Cha mẹ làm chắt chiu từng đồng ở ngoài quê gửi vào, thậm chí những mùa mưa bão nghĩ đến cha mẹ ở nhà mà đau lòng. Mình cũng thường tìm đến quán cơm từ thiện để ăn, mình ăn và mình biết ơn rất nhiều. Mình nghĩ nếu ai đã từng là sinh viên và gia đình khó khăn sẽ hiểu rõ được vấn đề này hơn”, Nguyễn Thị Vân Anh (sinh viên Trường ĐH Khoa học xã hội và nhân văn TP.HCM).
+Đồng cảm với các bạn sinh viên khó khăn, bạn Trương Thu Thủy (sinh viên Trường ĐH Nông lâm TP.HCM) chia sẻ: “Mình chỉ mong mọi người có cái nhìn đa chiều hơn. Ai cũng có lúc này lúc kia, nhìn bề ngoài làm sao có thể chắc chắn được rằng họ khó khăn hay không. Tụi mình dù có đi làm thêm cũng đâu có nhiều tiền, nên nhiều lúc cũng thiếu trước hụt sau. Ăn được bữa ăn tình thương nào thì đỡ bớt gánh nặng cho gia đình. Miễn sao mình sống tốt, không phủi ơn những người đã giúp đỡ mình là được mà. Ai trách móc chi sinh viên nghèo”.
+Bạn Đặng Văn Phúc (sinh viên Trường ĐH Công nghệ TP.HCM) chia sẻ: “Sinh viên cũng có lúc khó khăn nhưng nhìn thấy hình ảnh cả hội cùng kéo đến thế kia thì thật sự cũng nên cân nhắc. Chẳng lẽ rủ nhau cùng đói hết một lúc. Mình nhiều khi đến tháng trong túi không còn đồng phải đi vay mượn bạn bè tứ phương, chứ thật sự chưa bao giờ nghĩ đến việc sẽ đi ăn cơm 2.000 đồng. Bởi vì mình nghĩ mình là nam nhi nên có lòng tự trọng. Thế thôi. Còn lại thì mình nghĩ tùy người và cũng tùy hoàn cảnh nữa, chứ không nên nhìn phiến diện”.</string>
+</resources>
