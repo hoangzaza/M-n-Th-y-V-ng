@@ -55,24 +55,24 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void addControls() {
-        toolbar=findViewById(R.id.toolbar);
-        imgToolbar=findViewById(R.id.img_detail);
-        lnlLienHe=findViewById(R.id.lnl_lien_he);
-        lnlThich=findViewById(R.id.lnl_thich);
-        lnlDanhGia=findViewById(R.id.lnl_danh_gia);
-        lnlLuuLai=findViewById(R.id.lnl_luu_lai);
+        toolbar = findViewById(R.id.toolbar);
+        imgToolbar = findViewById(R.id.img_detail);
+        lnlLienHe = findViewById(R.id.lnl_lien_he);
+        lnlThich = findViewById(R.id.lnl_thich);
+        lnlDanhGia = findViewById(R.id.lnl_danh_gia);
+        lnlLuuLai = findViewById(R.id.lnl_luu_lai);
 
-        txtTheLoai=findViewById(R.id.txt_the_loai);
-        ratingBar=findViewById(R.id.rate_bar_detail);
-        txtSoLuongDanhGia=findViewById(R.id.txt_sl_danh_gia_detail);
-        txtWeb=findViewById(R.id.txt_trang_web);
-        txtEmail=findViewById(R.id.txt_email);
-        txtDiaChi=findViewById(R.id.txt_dia_chi);
-        txtXemThem=findViewById(R.id.txt_xem_them_activity_detail);
-        txtTongQuan=findViewById(R.id.txt_tong_quan);
-        listDanhGia=findViewById(R.id.list_danh_gia);
-        rcvAnhDep=findViewById(R.id.rcv_anh_dep);
-        rcvDiaDiemGanDay=findViewById(R.id.rcv_dia_diem_gan_day);
+        txtTheLoai = findViewById(R.id.txt_the_loai);
+        ratingBar = findViewById(R.id.rate_bar_detail);
+        txtSoLuongDanhGia = findViewById(R.id.txt_sl_danh_gia_detail);
+        txtWeb = findViewById(R.id.txt_trang_web);
+        txtEmail = findViewById(R.id.txt_email);
+        txtDiaChi = findViewById(R.id.txt_dia_chi);
+        txtXemThem = findViewById(R.id.txt_xem_them_activity_detail);
+        txtTongQuan = findViewById(R.id.txt_tong_quan);
+        listDanhGia = findViewById(R.id.list_danh_gia);
+        rcvAnhDep = findViewById(R.id.rcv_anh_dep);
+        rcvDiaDiemGanDay = findViewById(R.id.rcv_dia_diem_gan_day);
 
 
         setSupportActionBar(toolbar);

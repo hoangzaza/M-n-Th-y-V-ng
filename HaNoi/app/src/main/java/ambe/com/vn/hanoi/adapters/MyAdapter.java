@@ -27,7 +27,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ItemViewHolder> {
 
     private ArrayList<Place> arrayList;
     private Context context;
-    private int x;
 
     public MyAdapter(ArrayList<Place> arrayList, Context context) {
         this.arrayList = arrayList;
@@ -44,7 +43,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ItemViewHolder> {
     @Override
     public void onBindViewHolder(ItemViewHolder holder, int position) {
 
-        x=position;
 
         Place place = arrayList.get(position);
         ItemViewHolder viewHolder = holder;
@@ -65,8 +63,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ItemViewHolder> {
                 .load(place.getImages().get(0).getUrl())
                 .error(R.drawable.no_image)
                 .into(viewHolder.imgAvatar);
-
-
 
 
     }
@@ -96,10 +92,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ItemViewHolder> {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent=new Intent(context,DetailActivity.class);
+                    Intent intent = new Intent(context, DetailActivity.class);
                     Bundle bundle = new Bundle();
-                    bundle.putSerializable("ITEM",arrayList.get(x));
-                    intent.putExtra("111",bundle);
+                    bundle.putSerializable("ITEM", arrayList.get(getPosition()));
+                    intent.putExtra("111", bundle);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
                     context.startActivity(intent);

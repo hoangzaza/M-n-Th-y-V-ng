@@ -1,6 +1,7 @@
 package ambe.com.vn.hanoi.fragments;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,7 +16,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -32,6 +32,7 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 
 import ambe.com.vn.hanoi.R;
+import ambe.com.vn.hanoi.activities.GioiThieuHaNoiActivity;
 import ambe.com.vn.hanoi.adapters.ImageAdapter;
 import ambe.com.vn.hanoi.adapters.MyAdapter;
 import ambe.com.vn.hanoi.adapters.WeatherAdapter;
@@ -45,7 +46,7 @@ import ambe.com.vn.hanoi.models.weather.WeatherJson;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeTestFragment extends Fragment {
+public class HomeTestFragment extends Fragment implements View.OnClickListener {
 
     private NumberFormat format = new DecimalFormat("#0");
 
@@ -125,6 +126,9 @@ public class HomeTestFragment extends Fragment {
     }
 
     private void addEvents() {
+
+
+        txtXemThemBlack.setOnClickListener(this);
         txtGioiThieuHn.post(new Runnable() {
             @Override
             public void run() {
@@ -306,5 +310,20 @@ public class HomeTestFragment extends Fragment {
         int mScreenWidth = localDisplayMetrics.widthPixels;
         LinearLayout.LayoutParams localObject = new LinearLayout.LayoutParams(mScreenWidth, (int) (9.0F * (mScreenWidth / 16.0F)));
         zoomScrollViewEx.setHeaderLayoutParams(localObject);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.txt_xem_them_black:
+                xuLyXemThemBlack();
+                break;
+        }
+    }
+
+    private void xuLyXemThemBlack() {
+        Intent intent =new Intent(getActivity(), GioiThieuHaNoiActivity.class);
+        startActivity(intent);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     }
 }
